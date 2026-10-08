@@ -1,0 +1,43 @@
+{
+  "selected_panel_size": 279,
+  "selected_panel_name": "feedback_rescue_279",
+  "selection_reason": "Smallest tested feedback-rescue panel satisfying both predeclared trainval thresholds.",
+  "locked_reference_593": {
+    "balanced_accuracy_mean": 0.6512178588125292,
+    "roc_auc_mean": 0.7000514258999532
+  },
+  "thresholds": {
+    "balanced_accuracy_min": 0.6312178588125292,
+    "roc_auc_min": 0.6800514258999532
+  },
+  "selected_result": {
+    "panel_name": "feedback_rescue_279",
+    "panel_size": 279,
+    "balanced_accuracy_mean": 0.6345511921458625,
+    "balanced_accuracy_sd": 0.0930450741779259,
+    "roc_auc_mean": 0.690220508025557,
+    "roc_auc_sd": 0.10642748536487934,
+    "mcc_mean": 0.2449869938417643,
+    "mcc_sd": 0.1707629129921443,
+    "sensitivity_pd_mean": 0.7205002337540908,
+    "specificity_hc_mean": 0.5486021505376344,
+    "f1_macro_mean": 0.6132408353552353,
+    "pr_auc_pd_mean": 0.8758082870206032,
+    "delta_ba_vs_593": -0.01666666666666672,
+    "delta_auc_vs_593": -0.009830917874396161,
+    "passes_ba": 1,
+    "passes_auc": 1,
+    "passes_both": 1,
+    "data_scope": "trainval_only",
+    "test_rows_accessed": 0
+  },
+  "evaluated_sizes": [
+    269,
+    279,
+    289,
+    299,
+    309,
+    319
+  ],
+  "heldout_test_used_for_selection": false
+}

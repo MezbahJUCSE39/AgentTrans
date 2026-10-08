@@ -1,0 +1,4 @@
+panel,n_genes,successful_pubmed_queries,retrieval_errors,pubmed_positive,no_direct_query_hit,pubmed_positive_pct_among_successful,sum_total_hit_count,median_hit_count_successful
+41_5of5,41,41,0,16,25,39.02439024390244,39,0.0
+185_ge4of5,185,185,0,83,102,44.86486486486487,481,0.0
+593_ge3of5,593,592,1,263,329,44.42567567567568,2366,0.0

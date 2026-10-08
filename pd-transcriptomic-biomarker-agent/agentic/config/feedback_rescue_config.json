@@ -1,0 +1,38 @@
+{
+  "seed_panel": {
+    "name": "core41_plus_dual269",
+    "size": 269,
+    "balanced_accuracy_mean": 0.5962739597942963,
+    "roc_auc_mean": 0.6622744273024779
+  },
+  "locked_reference_593": {
+    "balanced_accuracy_mean": 0.6512178588125292,
+    "roc_auc_mean": 0.7000514258999532
+  },
+  "acceptance": {
+    "balanced_accuracy_min": 0.6312178588125292,
+    "roc_auc_min": 0.6800514258999532
+  },
+  "rescue_order": {
+    "first": "genes supported by exactly one external source (PubMed-only or STRING-only)",
+    "second": "genes supported by neither external source",
+    "within_group": "ascending pre-existing reproducibility_rank, then gene_name",
+    "single_external_source_count": 225,
+    "no_external_source_count": 99
+  },
+  "adaptive_search": {
+    "coarse_increment": 50,
+    "fine_increment": 10,
+    "coarse_sizes": [
+      319,
+      369,
+      419,
+      469,
+      519,
+      569,
+      593
+    ],
+    "rule": "Evaluate coarse sizes in ascending order until the first panel passes both thresholds. Then evaluate 10-gene increments between the previous failing coarse size and the first passing coarse size. Select the smallest tested panel passing both thresholds. If no rescued panel below 593 passes, retain 593."
+  },
+  "test_set_policy": "Held-out test is forbidden during rescue and panel selection."
+}

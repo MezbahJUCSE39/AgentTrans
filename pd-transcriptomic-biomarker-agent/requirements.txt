@@ -1,0 +1,15 @@
+# core scientific stack
+pandas>=2
+numpy
+scikit-learn>=1.8
+scipy
+matplotlib
+joblib
+requests
+openpyxl
+
+# MCP agent host (Claude Desktop / Claude Code)
+mcp[cli]>=2,<3
+
+# optional: headless LLM controller
+openai

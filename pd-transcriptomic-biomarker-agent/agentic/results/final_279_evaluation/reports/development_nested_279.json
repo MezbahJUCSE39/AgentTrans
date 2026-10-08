@@ -1,0 +1,205 @@
+{
+  "panel_name": "frozen_279",
+  "panel_size": 279,
+  "data_scope": "trainval_only",
+  "test_rows_accessed": 0,
+  "model_family": "regularized_logistic_regression",
+  "selection_metric": "balanced_accuracy",
+  "sklearn_compatibility_mode": "sklearn>=1.8:saga+l1_ratio",
+  "lr_max_iter": 10000,
+  "selected_estimators_converged_all_outer_folds": true,
+  "accuracy_mean": 0.6783819805411169,
+  "accuracy_sd": 0.07133355424084023,
+  "balanced_accuracy_mean": 0.6345511921458625,
+  "balanced_accuracy_sd": 0.0930450741779259,
+  "precision_pd_mean": 0.8309447884539767,
+  "precision_pd_sd": 0.052421292864747095,
+  "sensitivity_pd_mean": 0.7205002337540908,
+  "sensitivity_pd_sd": 0.06514344245236524,
+  "specificity_hc_mean": 0.5486021505376344,
+  "specificity_hc_sd": 0.15450494194056047,
+  "f1_pd_mean": 0.770870197875523,
+  "f1_pd_sd": 0.0530761597369765,
+  "f1_macro_mean": 0.6132408353552353,
+  "f1_macro_sd": 0.0841359426284389,
+  "mcc_mean": 0.2449869938417643,
+  "mcc_sd": 0.1707629129921443,
+  "roc_auc_mean": 0.690220508025557,
+  "roc_auc_sd": 0.10642748536487934,
+  "pr_auc_pd_mean": 0.8758082870206032,
+  "pr_auc_pd_sd": 0.046900520220801614,
+  "pr_auc_hc_mean": 0.42278508788956015,
+  "pr_auc_hc_sd": 0.1333996820249629,
+  "fold_results": [
+    {
+      "outer_fold": 0,
+      "n_train": 490,
+      "n_validation": 123,
+      "inner_best_balanced_accuracy": 0.6096453165494262,
+      "best_params": {
+        "clf__C": 0.1,
+        "clf__l1_ratio": 0.0
+      },
+      "selected_estimator_convergence": {
+        "check_available": true,
+        "converged": true,
+        "n_iter": [
+          477
+        ],
+        "max_iter": 10000
+      },
+      "captured_convergence_warning_count": 0,
+      "accuracy": 0.7479674796747967,
+      "balanced_accuracy": 0.6865591397849462,
+      "precision_pd": 0.8522727272727273,
+      "sensitivity_pd": 0.8064516129032258,
+      "specificity_hc": 0.5666666666666667,
+      "f1_pd": 0.8287292817679558,
+      "f1_macro": 0.6759031024224395,
+      "mcc": 0.35511847713499956,
+      "roc_auc": 0.7709677419354839,
+      "pr_auc_pd": 0.9076200063168807,
+      "pr_auc_hc": 0.6031957236250505,
+      "tn": 17,
+      "fp": 13,
+      "fn": 18,
+      "tp": 75
+    },
+    {
+      "outer_fold": 1,
+      "n_train": 490,
+      "n_validation": 123,
+      "inner_best_balanced_accuracy": 0.61937152906331,
+      "best_params": {
+        "clf__C": 0.01,
+        "clf__l1_ratio": 0.0
+      },
+      "selected_estimator_convergence": {
+        "check_available": true,
+        "converged": true,
+        "n_iter": [
+          101
+        ],
+        "max_iter": 10000
+      },
+      "captured_convergence_warning_count": 0,
+      "accuracy": 0.7317073170731707,
+      "balanced_accuracy": 0.6983870967741935,
+      "precision_pd": 0.8658536585365854,
+      "sensitivity_pd": 0.7634408602150538,
+      "specificity_hc": 0.6333333333333333,
+      "f1_pd": 0.8114285714285714,
+      "f1_macro": 0.6733199195171026,
+      "mcc": 0.36144869800612445,
+      "roc_auc": 0.7577060931899641,
+      "pr_auc_pd": 0.9071913236611252,
+      "pr_auc_hc": 0.4614475959263098,
+      "tn": 19,
+      "fp": 11,
+      "fn": 22,
+      "tp": 71
+    },
+    {
+      "outer_fold": 2,
+      "n_train": 490,
+      "n_validation": 123,
+      "inner_best_balanced_accuracy": 0.5878378378378378,
+      "best_params": {
+        "clf__C": 0.01,
+        "clf__l1_ratio": 0.0
+      },
+      "selected_estimator_convergence": {
+        "check_available": true,
+        "converged": true,
+        "n_iter": [
+          92
+        ],
+        "max_iter": 10000
+      },
+      "captured_convergence_warning_count": 0,
+      "accuracy": 0.7073170731707317,
+      "balanced_accuracy": 0.7080995792426368,
+      "precision_pd": 0.8783783783783784,
+      "sensitivity_pd": 0.7065217391304348,
+      "specificity_hc": 0.7096774193548387,
+      "f1_pd": 0.7831325301204819,
+      "f1_macro": 0.666566265060241,
+      "mcc": 0.36911530952668065,
+      "roc_auc": 0.7727910238429172,
+      "pr_auc_pd": 0.914379858837294,
+      "pr_auc_hc": 0.4676568194247719,
+      "tn": 22,
+      "fp": 9,
+      "fn": 27,
+      "tp": 65
+    },
+    {
+      "outer_fold": 3,
+      "n_train": 491,
+      "n_validation": 122,
+      "inner_best_balanced_accuracy": 0.6196261261261261,
+      "best_params": {
+        "clf__C": 0.1,
+        "clf__l1_ratio": 0.0
+      },
+      "selected_estimator_convergence": {
+        "check_available": true,
+        "converged": true,
+        "n_iter": [
+          495
+        ],
+        "max_iter": 10000
+      },
+      "captured_convergence_warning_count": 0,
+      "accuracy": 0.6147540983606558,
+      "balanced_accuracy": 0.5873188405797101,
+      "precision_pd": 0.8082191780821918,
+      "sensitivity_pd": 0.6413043478260869,
+      "specificity_hc": 0.5333333333333333,
+      "f1_pd": 0.7151515151515152,
+      "f1_macro": 0.5601074031453779,
+      "mcc": 0.15340270831846822,
+      "roc_auc": 0.5945652173913043,
+      "pr_auc_pd": 0.8331651422559802,
+      "pr_auc_hc": 0.30289968361396613,
+      "tn": 16,
+      "fp": 14,
+      "fn": 33,
+      "tp": 59
+    },
+    {
+      "outer_fold": 4,
+      "n_train": 491,
+      "n_validation": 122,
+      "inner_best_balanced_accuracy": 0.6661396396396396,
+      "best_params": {
+        "clf__C": 0.01,
+        "clf__l1_ratio": 0.0
+      },
+      "selected_estimator_convergence": {
+        "check_available": true,
+        "converged": true,
+        "n_iter": [
+          98
+        ],
+        "max_iter": 10000
+      },
+      "captured_convergence_warning_count": 0,
+      "accuracy": 0.5901639344262295,
+      "balanced_accuracy": 0.4923913043478261,
+      "precision_pd": 0.75,
+      "sensitivity_pd": 0.6847826086956522,
+      "specificity_hc": 0.3,
+      "f1_pd": 0.7159090909090909,
+      "f1_macro": 0.4903074866310161,
+      "mcc": -0.014150223777451192,
+      "roc_auc": 0.5550724637681159,
+      "pr_auc_pd": 0.8166851040317362,
+      "pr_auc_hc": 0.2787256168577026,
+      "tn": 9,
+      "fp": 21,
+      "fn": 29,
+      "tp": 63
+    }
+  ]
+}

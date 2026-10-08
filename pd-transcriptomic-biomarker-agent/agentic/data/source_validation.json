@@ -1,0 +1,22 @@
+{
+  "master_union_rows": 2788,
+  "candidate_genes_support_ge_3of5": 593,
+  "tier_counts": {
+    "core_5of5": 41,
+    "strong_4of5": 144,
+    "broad_3of5": 408
+  },
+  "genes_missing_from_gene_scores_trainval": 0,
+  "selector_rank_mismatches_between_sources": 0,
+  "gene_name_mapping_source": "ML_results.zip/panel_593_features_used.csv",
+  "gene_name_mapping_validated_by": [
+    "41-gene feature list exactly equals the support=5 subset in the same order",
+    "185-gene feature list exactly equals the support>=4 subset in the same order",
+    "593 gene names are unique"
+  ],
+  "source_files": {
+    "cross_method_master_gene_table": "cross_method_master_gene_table.xlsx",
+    "gene_scores_trainval": "gene_scores_trainval.csv",
+    "ml_results": "ML_results.zip"
+  }
+}

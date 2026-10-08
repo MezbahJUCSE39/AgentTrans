@@ -1,0 +1,20 @@
+# PPMI-controlled inputs - never commit
+ML_ready_data/
+splits.csv
+*_expression_matrix*.csv
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# secrets
+.env
+*.key

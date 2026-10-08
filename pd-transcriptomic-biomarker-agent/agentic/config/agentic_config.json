@@ -1,0 +1,31 @@
+{
+  "candidate_universe": {
+    "panel_size": 593,
+    "criterion": "selected in the Top-1000 by at least 3 of 5 independent selectors",
+    "tiers": {
+      "core_5of5": 41,
+      "strong_4of5_only": 144,
+      "broad_3of5_only": 408
+    }
+  },
+  "agentic_safety_boundary": {
+    "allowed_for_iterative_evaluation": "trainval only",
+    "heldout_test_access": "forbidden during agent refinement"
+  },
+  "reference_conventional_ml": {
+    "primary_panel": 593,
+    "model_family": "Logistic Regression",
+    "development_nested_oof_balanced_accuracy_mean": 0.6512178588125292,
+    "development_nested_oof_balanced_accuracy_sd": 0.098354863,
+    "development_nested_oof_roc_auc_mean": 0.7000514258999532,
+    "development_nested_oof_roc_auc_sd": 0.093392895,
+    "heldout_balanced_accuracy": 0.5646551724137931,
+    "heldout_roc_auc": 0.6617513611615244,
+    "note": "Held-out values are reference/reporting only and MUST NOT be exposed to the refinement agent."
+  },
+  "default_paths_for_user_project": {
+    "evidence_master": "agentic/data/gene_evidence_master.csv",
+    "expression_matrix": "ML_ready_data/593_PD_expression_matrix_BL_HC_PD_labeled.csv",
+    "splits": "splits.csv"
+  }
+}

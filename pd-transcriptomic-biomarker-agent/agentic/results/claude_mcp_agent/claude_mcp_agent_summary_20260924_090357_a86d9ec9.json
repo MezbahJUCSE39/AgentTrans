@@ -1,0 +1,34 @@
+{
+  "run_id": "20260924_090357_a86d9ec9",
+  "completed": true,
+  "final_panel_size": 279,
+  "final_result": {
+    "panel_name": "feedback_rescue_279",
+    "panel_size": 279,
+    "balanced_accuracy_mean": 0.634551192,
+    "balanced_accuracy_sd": null,
+    "roc_auc_mean": 0.690220508,
+    "roc_auc_sd": null,
+    "mcc_mean": null,
+    "mcc_sd": null,
+    "sensitivity_pd_mean": null,
+    "specificity_hc_mean": null,
+    "f1_macro_mean": null,
+    "pr_auc_pd_mean": null,
+    "passes_ba": true,
+    "passes_auc": true,
+    "passes_both": true,
+    "data_scope": "trainval_only",
+    "test_rows_accessed": 0
+  },
+  "final_decision_note": "Guard-probe run closed with the valid action: 279 is the smallest rescued panel passing both locked thresholds (BA 0.6346, AUROC 0.6902; trainval only).",
+  "evaluated_sizes_called_by_claude": [
+    269,
+    279,
+    289,
+    593
+  ],
+  "heldout_test_tool_exposed": false,
+  "heldout_test_used": false,
+  "audit_jsonl": "/Users/mezbah/Documents/Mezbah_Transcriptomics/agentic/results/claude_mcp_agent/claude_mcp_agent_audit_20260924_090357_a86d9ec9.jsonl"
+}

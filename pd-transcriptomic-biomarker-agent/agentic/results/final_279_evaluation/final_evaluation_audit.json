@@ -1,0 +1,162 @@
+{
+  "status": "COMPLETE",
+  "analysis_stage": "final_frozen_279_secondary_internal_heldout_evaluation",
+  "project_root": "/Users/mezbah/Documents/Mezbah_Transcriptomics",
+  "inputs": {
+    "expression_path": "/Users/mezbah/Documents/Mezbah_Transcriptomics/ML_ready_data/593_PD_expression_matrix_BL_HC_PD_labeled.csv",
+    "expression_sha256": "53457fd90db35cacd5f85a83fa58af621d9fcf2ecd41d295a149a478eb05e923",
+    "splits_path": "/Users/mezbah/Documents/Mezbah_Transcriptomics/splits.csv",
+    "splits_sha256": "ffeedc1eefddb807fdab3a4249d09f76250f69f39b511152b754b738c5545702",
+    "frozen_279_panel_path": "/Users/mezbah/Documents/Mezbah_Transcriptomics/agentic/results/feedback_rescue/FINAL_FEEDBACK_RESCUE_PANEL.csv",
+    "frozen_279_panel_file_sha256": "cb4709061df8653059352c64a8a6ab647b1a961635a7a4d7643b74c6735e14a0",
+    "frozen_279_gene_order_sha256": "9937e936d053e4348644e3093ef858ca14e09f8625a3e4d11e8275a9deb3e1f9",
+    "evidence_593_path": "/Users/mezbah/Documents/Mezbah_Transcriptomics/agentic/results/string_consensus_comparison/combined_pubmed_string_593_gene_evidence.csv"
+  },
+  "frozen_panel": {
+    "panel_size": 279,
+    "panel_modified_after_agent_finalization": false,
+    "genes_removed_after_agent_finalization": 0,
+    "genes_added_after_agent_finalization": 0
+  },
+  "cohort": {
+    "trainval_n": 613,
+    "trainval_hc": 151,
+    "trainval_pd": 462,
+    "test_n": 154,
+    "test_hc": 38,
+    "test_pd": 116
+  },
+  "locked_development_reference": {
+    "balanced_accuracy": 0.6512178588125292,
+    "roc_auc": 0.7000514258999532,
+    "minimum_accepted_balanced_accuracy": 0.6312178588125292,
+    "minimum_accepted_roc_auc": 0.6800514258999532
+  },
+  "convergence_check": {
+    "lr_max_iter": 10000,
+    "development_279_passed_locked_thresholds": true,
+    "development_279_selected_estimators_converged": true,
+    "development_593_selected_estimators_converged": true
+  },
+  "final_hpo": {
+    "selection_scope": "trainval_only",
+    "heldout_used_for_hyperparameter_selection": false,
+    "279": {
+      "panel_name": "frozen_279",
+      "panel_size": 279,
+      "data_scope": "trainval_only",
+      "test_rows_accessed": 0,
+      "selection_metric": "balanced_accuracy",
+      "cv_scheme": "original_predefined_trainval_folds",
+      "original_to_predefined_fold_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4
+      },
+      "best_params": {
+        "clf__C": 0.01,
+        "clf__l1_ratio": 0.0
+      },
+      "best_cv_balanced_accuracy": 0.6336792893875642,
+      "sklearn_compatibility_mode": "sklearn>=1.8:saga+l1_ratio",
+      "lr_max_iter": 10000,
+      "selected_estimator_convergence": {
+        "check_available": true,
+        "converged": true,
+        "n_iter": [
+          91
+        ],
+        "max_iter": 10000
+      },
+      "captured_convergence_warning_count": 0
+    },
+    "593": {
+      "panel_name": "reference_593",
+      "panel_size": 593,
+      "data_scope": "trainval_only",
+      "test_rows_accessed": 0,
+      "selection_metric": "balanced_accuracy",
+      "cv_scheme": "original_predefined_trainval_folds",
+      "original_to_predefined_fold_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4
+      },
+      "best_params": {
+        "clf__C": 0.01,
+        "clf__l1_ratio": 0.0
+      },
+      "best_cv_balanced_accuracy": 0.672124824684432,
+      "sklearn_compatibility_mode": "sklearn>=1.8:saga+l1_ratio",
+      "lr_max_iter": 10000,
+      "selected_estimator_convergence": {
+        "check_available": true,
+        "converged": true,
+        "n_iter": [
+          161
+        ],
+        "max_iter": 10000
+      },
+      "captured_convergence_warning_count": 0
+    }
+  },
+  "heldout": {
+    "evaluation_count_in_this_script_run": 1,
+    "used_for_feature_selection": false,
+    "used_for_hyperparameter_selection": false,
+    "panel_changed_after_heldout": false,
+    "279_metrics": {
+      "accuracy": 0.5909090909090909,
+      "balanced_accuracy": 0.551497277676951,
+      "precision_pd": 0.7849462365591398,
+      "sensitivity_pd": 0.6293103448275862,
+      "specificity_hc": 0.47368421052631576,
+      "f1_pd": 0.6985645933014354,
+      "f1_macro": 0.5311004784688995,
+      "mcc": 0.09078804581713838,
+      "roc_auc": 0.6245462794918331,
+      "pr_auc_pd": 0.8574973317058334,
+      "pr_auc_hc": 0.312476921832286,
+      "tn": 18,
+      "fp": 20,
+      "fn": 43,
+      "tp": 73
+    },
+    "593_metrics_recomputed": {
+      "accuracy": 0.5974025974025974,
+      "balanced_accuracy": 0.5646551724137931,
+      "precision_pd": 0.7934782608695652,
+      "sensitivity_pd": 0.6293103448275862,
+      "specificity_hc": 0.5,
+      "f1_pd": 0.7019230769230769,
+      "f1_macro": 0.5409615384615385,
+      "mcc": 0.11367482762747771,
+      "roc_auc": 0.6617513611615244,
+      "pr_auc_pd": 0.8747755891844331,
+      "pr_auc_hc": 0.3644963362064224,
+      "tn": 19,
+      "fp": 19,
+      "fn": 43,
+      "tp": 73
+    }
+  },
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20260924,
+    "individual_ci_type": "stratified_fixed_prediction_percentile",
+    "paired_difference_ci_type": "paired_stratified_fixed_prediction_percentile"
+  },
+  "software": {
+    "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 17:06:14) [Clang 19.1.7 ]",
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "interpretation_boundary": "The same held-out cohort was inspected previously during the conventional 41/185/593 analysis. Therefore this 279-gene evaluation is a secondary internal held-out assessment, not pristine external validation."
+}

@@ -1,0 +1,17 @@
+{
+  "purpose": "End-to-end validation of the trainval-only evaluator using the available 41-gene expression matrix.",
+  "important_note": "This is not the prior final 41-gene model comparison. The Stage-1 evaluator deliberately uses regularized Logistic Regression because the later agentic refinement will benchmark against the 593-gene Logistic Regression family.",
+  "data_scope": "trainval_only",
+  "test_rows_accessed": 0,
+  "panel_size": 41,
+  "n_trainval": 613,
+  "n_hc_trainval": 151,
+  "n_pd_trainval": 462,
+  "balanced_accuracy_mean": 0.5829055633473585,
+  "balanced_accuracy_sd": 0.11028669346120724,
+  "roc_auc_mean": 0.6535811126694717,
+  "roc_auc_sd": 0.0853660356945071,
+  "mcc_mean": 0.14718677748157444,
+  "mcc_sd": 0.1937523243287565,
+  "status": "PASS"
+}

@@ -1,0 +1,12 @@
+metric,difference,bootstrap_mean_difference,ci_2_5,ci_97_5,n_bootstrap,bootstrap_seed,bootstrap_type,point_difference
+accuracy,279_minus_593,-0.006172078,-0.058441558,0.045454545,2000,20260924,paired_stratified_fixed_prediction,-0.006493506
+balanced_accuracy,279_minus_593,-0.012705649,-0.083796506,0.061252269,2000,20260924,paired_stratified_fixed_prediction,-0.013157895
+precision_pd,279_minus_593,-0.008287927,-0.054541813,0.039548582,2000,20260924,paired_stratified_fixed_prediction,-0.008532024
+sensitivity_pd,279_minus_593,0.000193966,-0.051724138,0.051724138,2000,20260924,paired_stratified_fixed_prediction,0
+specificity_hc,279_minus_593,-0.025605263,-0.157894737,0.105263158,2000,20260924,paired_stratified_fixed_prediction,-0.026315789
+f1_pd,279_minus_593,-0.00316205,-0.045811953,0.040091825,2000,20260924,paired_stratified_fixed_prediction,-0.003358484
+f1_macro,279_minus_593,-0.009541233,-0.068098275,0.053221594,2000,20260924,paired_stratified_fixed_prediction,-0.00986106
+mcc,279_minus_593,-0.022146832,-0.15003112,0.108370375,2000,20260924,paired_stratified_fixed_prediction,-0.022886782
+roc_auc,279_minus_593,-0.037289814,-0.082809664,0.008172641,2000,20260924,paired_stratified_fixed_prediction,-0.037205082
+pr_auc_pd,279_minus_593,-0.016955664,-0.03874154,0.005177769,2000,20260924,paired_stratified_fixed_prediction,-0.017278257
+pr_auc_hc,279_minus_593,-0.054306613,-0.122031804,0.006799439,2000,20260924,paired_stratified_fixed_prediction,-0.052019414

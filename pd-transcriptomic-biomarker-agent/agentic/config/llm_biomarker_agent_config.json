@@ -1,0 +1,25 @@
+{
+  "default_model": "gpt-5.4-mini-2026-03-17",
+  "execution_mode": "cached_trainval_evidence_reproduction",
+  "locked_reference": {
+    "panel_size": 593,
+    "balanced_accuracy_mean": 0.6512178588125292,
+    "roc_auc_mean": 0.7000514258999532
+  },
+  "locked_thresholds": {
+    "balanced_accuracy_min": 0.6312178588125292,
+    "roc_auc_min": 0.6800514258999532
+  },
+  "allowed_panel_sizes": [
+    269,
+    279,
+    289,
+    299,
+    309,
+    319,
+    593
+  ],
+  "expected_final_panel": 279,
+  "heldout_tool_exposed": false,
+  "note": "The expected panel is recorded only for post-run reproducibility checks; the model is instructed to derive its decision from tool outputs."
+}

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Evidence-Grounded Agentic AI for Feedback-Guided Refinement of Parkinson's Disease Transcriptomic Biomarkers"
+abstract: >-
+  An LLM agent, governed by Model Context Protocol tools with deterministic guardrails,
+  that compresses a 593-gene Parkinson's disease blood transcriptomic biomarker panel to
+  279 genes while preserving development performance within a pre-registered tolerance and
+  without any access to the held-out test set.
+authors:
+  - family-names: Islam
+    given-names: Md Mezbahul
+    affiliation: "Knight Foundation School of Computing and Information Sciences, Florida International University"
+version: "1.0.0"
+date-released: "2026-10-07"
+license: MIT
+keywords:
+  - agentic AI
+  - model context protocol
+  - biomarker discovery
+  - Parkinson's disease
+  - transcriptomics
+  - explainable AI
+  - reproducible machine learning

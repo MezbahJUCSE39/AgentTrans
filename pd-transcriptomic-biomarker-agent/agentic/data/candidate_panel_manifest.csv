@@ -1,0 +1,7 @@
+﻿panel_name,panel_size,support_5of5,support_4of5,support_3of5,rule
+evidence_dual_top50,50,10,26,14,PubMed-positive AND STRING-connected; ordered by feature-selection reproducibility rank
+evidence_dual_top100,100,13,43,44,PubMed-positive AND STRING-connected; ordered by feature-selection reproducibility rank
+evidence_dual_top150,150,14,51,85,PubMed-positive AND STRING-connected; ordered by feature-selection reproducibility rank
+evidence_dual_top200,200,14,56,130,PubMed-positive AND STRING-connected; ordered by feature-selection reproducibility rank
+evidence_dual_all242,242,14,60,168,PubMed-positive AND STRING-connected; ordered by feature-selection reproducibility rank
+core41_plus_dual269,269,41,60,168,All 5/5 core genes plus all PubMed-positive AND STRING-connected genes

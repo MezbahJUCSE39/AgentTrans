@@ -1,0 +1,141 @@
+{
+  "settings": {
+    "species": "Homo sapiens",
+    "ncbi_taxon_id": 9606,
+    "network_type": "functional",
+    "required_score": 400,
+    "added_neighbors": 0,
+    "fdr_threshold": 0.05
+  },
+  "pubmed_tiers": [
+    {
+      "panel": "41_5of5",
+      "n_genes": 41,
+      "successful_queries": 41,
+      "retrieval_errors": 0,
+      "pubmed_positive": 16,
+      "no_direct_query_hit": 25,
+      "pubmed_positive_pct_successful": 39.02439024390244,
+      "sum_hit_count": 39
+    },
+    {
+      "panel": "185_ge4of5",
+      "n_genes": 185,
+      "successful_queries": 185,
+      "retrieval_errors": 0,
+      "pubmed_positive": 83,
+      "no_direct_query_hit": 102,
+      "pubmed_positive_pct_successful": 44.86486486486487,
+      "sum_hit_count": 481
+    },
+    {
+      "panel": "593_ge3of5",
+      "n_genes": 593,
+      "successful_queries": 592,
+      "retrieval_errors": 1,
+      "pubmed_positive": 263,
+      "no_direct_query_hit": 329,
+      "pubmed_positive_pct_successful": 44.42567567567568,
+      "sum_hit_count": 2366
+    }
+  ],
+  "string_mapping": {
+    "mapped_593": 583,
+    "unmapped_593": 10
+  },
+  "network_summary": [
+    {
+      "panel": "41_5of5",
+      "mapped_nodes": 39,
+      "edges_score_ge_400": 7,
+      "genes_with_at_least_one_edge": 12,
+      "mean_degree": 0.358974358974359,
+      "median_degree": 0.0,
+      "max_degree": 2,
+      "network_density": 0.009446693657219974
+    },
+    {
+      "panel": "185_ge4of5",
+      "mapped_nodes": 182,
+      "edges_score_ge_400": 225,
+      "genes_with_at_least_one_edge": 109,
+      "mean_degree": 2.4725274725274726,
+      "median_degree": 1.0,
+      "max_degree": 40,
+      "network_density": 0.013660372776394876
+    },
+    {
+      "panel": "593_ge3of5",
+      "mapped_nodes": 583,
+      "edges_score_ge_400": 2399,
+      "genes_with_at_least_one_edge": 466,
+      "mean_degree": 8.229845626072041,
+      "median_degree": 3.0,
+      "max_degree": 111,
+      "network_density": 0.01414062822349148
+    }
+  ],
+  "ppi_enrichment": [
+    {
+      "panel": "41_5of5",
+      "number_of_nodes": 39,
+      "number_of_edges": 7,
+      "average_node_degree": 0.36,
+      "local_clustering_coefficient": 0.256,
+      "expected_number_of_edges": 6,
+      "p_value": 0.3628
+    },
+    {
+      "panel": "185_ge4of5",
+      "number_of_nodes": 182,
+      "number_of_edges": 225,
+      "average_node_degree": 2.47,
+      "local_clustering_coefficient": 0.347,
+      "expected_number_of_edges": 124,
+      "p_value": 2.22e-16
+    },
+    {
+      "panel": "593_ge3of5",
+      "number_of_nodes": 583,
+      "number_of_edges": 2399,
+      "average_node_degree": 8.23,
+      "local_clustering_coefficient": 0.381,
+      "expected_number_of_edges": 1473,
+      "p_value": 0.0
+    }
+  ],
+  "proteome_enrichment_counts": [
+    {
+      "panel": "41_5of5",
+      "significant_terms_fdr05_human_background": 0
+    },
+    {
+      "panel": "185_ge4of5",
+      "significant_terms_fdr05_human_background": 89
+    },
+    {
+      "panel": "593_ge3of5",
+      "significant_terms_fdr05_human_background": 664
+    }
+  ],
+  "candidate_background_enrichment_counts": [
+    {
+      "panel": "41_5of5",
+      "significant_terms_fdr05_vs_593_background": 0,
+      "status": "OK"
+    },
+    {
+      "panel": "185_ge4of5",
+      "significant_terms_fdr05_vs_593_background": 0,
+      "status": "OK"
+    }
+  ],
+  "integrated_group_counts": {
+    "PUBMED_AND_STRING": 242,
+    "STRING_NETWORK_RESCUED": 223,
+    "NO_PUBMED_OR_CORE_NETWORK_EDGE": 106,
+    "PUBMED_ONLY": 21,
+    "STRING_SUPPORTED_PUBMED_ERROR": 1
+  },
+  "important_note": "PubMed hit counts are coarse automated retrieval signals. They are not verified evidence strengths. STRING associations are functional-association evidence and do not establish causality."
+}

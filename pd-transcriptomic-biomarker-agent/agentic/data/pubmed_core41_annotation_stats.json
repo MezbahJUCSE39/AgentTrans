@@ -1,0 +1,69 @@
+{
+  "core_gene_count": 41,
+  "genes_with_at_least_one_unique_article": 16,
+  "genes_without_articles": 25,
+  "unique_gene_pmid_pairs": 39,
+  "genes_with_hits": [
+    "ACSL1",
+    "CKLF",
+    "DHRS13",
+    "DUSP1",
+    "FCGR2B",
+    "FPR2",
+    "HCAR2",
+    "IKBIP",
+    "IRF1",
+    "LILRB3",
+    "PRDM10",
+    "PROK2",
+    "SNAI3",
+    "THBD",
+    "TMEM252",
+    "TUBA1A"
+  ],
+  "genes_without_hits": [
+    "IFITM1",
+    "HECW2",
+    "TNFAIP6",
+    "AL590764.2",
+    "HSDL2",
+    "COL9A3",
+    "SRGN",
+    "LRRC6",
+    "KRT23",
+    "ARL11",
+    "HIST2H2BF",
+    "NBPF26",
+    "HIST1H1T",
+    "TGFA",
+    "SLC37A3",
+    "CHST2",
+    "MXD3",
+    "AL591806.3",
+    "CDK7",
+    "TSPAN2",
+    "ANAPC13",
+    "SEPHS2",
+    "LMTK2",
+    "STYXL1",
+    "KDM6A"
+  ],
+  "valid_evidence_classes": [
+    "DIRECT_HUMAN_PD",
+    "DIRECT_PD_MODEL",
+    "PD_COMPUTATIONAL_BIOMARKER",
+    "REVIEW_MECHANISTIC_SUPPORT",
+    "INDIRECT_PD_CONTEXT",
+    "IRRELEVANT_FALSE_POSITIVE"
+  ],
+  "valid_yes_no_unknown": [
+    "YES",
+    "NO",
+    "UNKNOWN"
+  ],
+  "valid_confidence_levels": [
+    "HIGH",
+    "MEDIUM",
+    "LOW"
+  ]
+}

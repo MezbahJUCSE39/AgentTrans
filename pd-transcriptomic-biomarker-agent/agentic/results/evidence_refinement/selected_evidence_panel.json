@@ -1,0 +1,31 @@
+{
+  "selected_panel": "core41_plus_dual269",
+  "selected_panel_size": 269,
+  "selection_reason": "No candidate satisfied both tolerances; selected highest development balanced accuracy, then AUROC, then smaller size.",
+  "reference_593_balanced_accuracy": 0.6512178588125292,
+  "reference_593_roc_auc": 0.7000514258999532,
+  "minimum_accepted_balanced_accuracy": 0.6312178588125292,
+  "minimum_accepted_roc_auc": 0.6800514258999532,
+  "selected_result": {
+    "panel_name": "core41_plus_dual269",
+    "panel_size": 269,
+    "balanced_accuracy_mean": 0.5962739597942963,
+    "balanced_accuracy_sd": 0.09879821186373253,
+    "roc_auc_mean": 0.6622744273024779,
+    "roc_auc_sd": 0.09556761281589432,
+    "mcc_mean": 0.1748610094337299,
+    "mcc_sd": 0.1802271510549055,
+    "sensitivity_pd_mean": 0.6901823281907433,
+    "specificity_hc_mean": 0.5023655913978494,
+    "f1_macro_mean": 0.5773223271514022,
+    "pr_auc_pd_mean": 0.8585717149834624,
+    "delta_ba_vs_593": -0.05494389901823293,
+    "delta_auc_vs_593": -0.0377769985974753,
+    "passes_ba_tolerance": 0,
+    "passes_auc_tolerance": 0,
+    "passes_both": 0,
+    "data_scope": "trainval_only",
+    "test_rows_accessed": 0
+  },
+  "heldout_test_used_for_selection": false
+}

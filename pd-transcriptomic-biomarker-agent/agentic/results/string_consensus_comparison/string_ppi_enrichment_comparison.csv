@@ -1,0 +1,4 @@
+﻿panel,number_of_nodes,number_of_edges,average_node_degree,local_clustering_coefficient,expected_number_of_edges,p_value
+41_5of5,39,7,0.36,0.256,6,0.3628
+185_ge4of5,182,225,2.47,0.347,124,2.22e-16
+593_ge3of5,583,2399,8.23,0.381,1473,0.0

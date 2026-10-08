@@ -1,0 +1,31 @@
+{
+  "panel_name": "frozen_279",
+  "panel_size": 279,
+  "data_scope": "trainval_only",
+  "test_rows_accessed": 0,
+  "selection_metric": "balanced_accuracy",
+  "cv_scheme": "original_predefined_trainval_folds",
+  "original_to_predefined_fold_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4
+  },
+  "best_params": {
+    "clf__C": 0.01,
+    "clf__l1_ratio": 0.0
+  },
+  "best_cv_balanced_accuracy": 0.6336792893875642,
+  "sklearn_compatibility_mode": "sklearn>=1.8:saga+l1_ratio",
+  "lr_max_iter": 10000,
+  "selected_estimator_convergence": {
+    "check_available": true,
+    "converged": true,
+    "n_iter": [
+      91
+    ],
+    "max_iter": 10000
+  },
+  "captured_convergence_warning_count": 0
+}
